@@ -10,7 +10,6 @@ html{
 
 .wrapper{
     width: 908px;
-    /* background-color: aqua; */
     margin: 0 auto;
 }
 
@@ -73,9 +72,10 @@ a:hover{
 .footer a{
     text-decoration: none;
     font-size: 25px;
+    padding: 30px 60px;
     text-transform: capitalize;
     color: black;
-    
+    border: 1px solid black;
     }
 
     a:hover{
