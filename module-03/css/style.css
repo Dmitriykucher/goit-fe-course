@@ -21,8 +21,8 @@ img{
 }
 
 .header {
+    margin-top: 76px;
     text-align: center;
-    margin-bottom: 106px;
 }
 
 .list-item li {
@@ -32,6 +32,16 @@ img{
     text-decoration: none;
 } 
 
+.list-item a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: coral;
+}
+    
+
 .list-item li:not(:last-child) {
     margin-right: 120px;
 }
@@ -39,6 +49,7 @@ img{
 .section-list{
     margin: 0;
     padding: 0;
+    margin-top: 100px;
 }
 
 .section-list-item {
@@ -51,5 +62,22 @@ img{
 }
 
 .section-list-item:not(:nth-child(2n)){
-    margin-right: 30px;
+    margin-right: 60px;
 }
+
+.footer{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.footer a{
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: capitalize;
+    color: black;
+    
+    }
+
+    a:hover{
+        color: coral;
+    }
