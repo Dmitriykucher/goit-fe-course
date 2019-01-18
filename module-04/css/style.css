@@ -1,5 +1,5 @@
 .wrapper {
-  width: 1170px;
+  width: 1110px;
   height: 1840px;
 }
 
@@ -76,11 +76,12 @@ a {
 
 .item {
   margin-bottom: 106px;
+  padding: 0;
 }
 
 .item-box {
   float: left;
-  width: 256px;
+  width: 255px;
   height: 322px;
   list-style: none;
   margin-right: 30px;
@@ -96,7 +97,7 @@ a {
 }
 
 .img-item {
-  width: 256px;
+  width: 255px;
   height: 282px;
   display: block;
 }
@@ -109,7 +110,7 @@ p {
 .product-name {
   float: left;
   background-color: #323232;
-  width: 202px;
+  width: 201px;
   height: 30px;
   text-decoration: none;
   color: white;
@@ -120,11 +121,11 @@ p {
   font-family: "Roboto", sans-serif;
 }
 
-.product-link:hover .product-name {
+.item-box:hover .product-name {
   background-color: #1abc9c;
 }
 
-.product-link:hover .product-price {
+.item-box:hover .product-price {
   background-color: rgba(26, 188, 156, 50%);
 }
 
@@ -168,9 +169,13 @@ p {
   margin-top: 32px;
 }
 
+.article-list{
+  padding: 0;
+}
+
 .article {
   float: left;
-  width: 346px;
+  width: 350px;
   margin-right: 30px;
   list-style: none;
 }
@@ -179,9 +184,9 @@ p {
   margin-right: 0;
 }
 
-.article img {
+.article-img {
   height: 264px;
-  width: 346px;
+  width: 350px;
   margin-bottom: 16px;
 }
 
@@ -198,24 +203,37 @@ p {
 }
 
 .button-readmore {
+  display: inline-block;
   border: 2px solid #4ec6ab;
-  padding: 10px 30px;
+  width: 160px;
+  height: 50px;
   background-color: #4ec6ab;
   text-decoration: none;
   color: white;
   border-radius: 5%;
+  text-align: center;
+}
+
+.text-button-readmore{
+  padding-top: 12px;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.button-readmore:first-letter {
   text-transform: uppercase;
+  color: #000;
 }
 
 .button-readmore:hover {
-  color: #b82626;
+  color: #000000;
 }
 
 .button-readmore:focus {
-  color: #b82626;
+  color: #000000;
 }
 
-.product-link:hover {
-  background-color: rgb(26, 188, 156);
+.text-button-readmore {
+  display: inline-block;
 }
 
