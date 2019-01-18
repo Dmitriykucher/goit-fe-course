@@ -41,11 +41,11 @@
   font-weight: bolder;
 }
 
-.nav-list a:hover{
+.nav-list a:hover {
   color: #1abc9c;
 }
 
-.nav-list a:focus{
+.nav-list a:focus {
   color: #1abc9c;
 }
 
@@ -169,7 +169,7 @@ p {
   margin-top: 32px;
 }
 
-.article-list{
+.article-list {
   padding: 0;
 }
 
@@ -214,7 +214,7 @@ p {
   text-align: center;
 }
 
-.text-button-readmore{
+.text-button-readmore {
   padding-top: 12px;
   font-size: 20px;
   text-transform: capitalize;
@@ -236,4 +236,3 @@ p {
 .text-button-readmore {
   display: inline-block;
 }
-
