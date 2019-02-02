@@ -360,7 +360,22 @@ p {
   left: 0;
 }
 
+.footer-text{
+  text-align: center;
+  position: relative;
+  top: 35px;
+}
+
 .footer-tex{
   text-align: center;
-  vertical-align: middle;
+  display: inline-block;
+  text-transform: capitalize;
+}
+
+.designer{
+  text-decoration: none;
+  color: #1abc9c; 
+  display: inline-block;
+  text-transform: capitalize;
+  white-space: pre;
 }
