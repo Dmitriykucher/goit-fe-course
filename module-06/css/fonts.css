@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "KaushanScriptRegular";
+  font-family: 'KaushanScript';
   font-style: normal;
   font-weight: 400;
   src: url('../module-06/fonts/kaushan-script-v7-latin-regular.eot'); /* IE9 Compat Modes */
@@ -12,7 +12,7 @@
 }
 
 @font-face {
-  font-family: 'MontserratRegular';
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   src: url('../module-06/fonts/montserrat-v12-latin-regular.eot'); /* IE9 Compat Modes */
