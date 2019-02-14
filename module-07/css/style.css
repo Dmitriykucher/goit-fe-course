@@ -80,6 +80,13 @@ p {
     width: 290px;
 }
 
+.article::before{
+  width: 290px;
+  height: 83px;
+  background-image: url(/module-07/img/Icon-Basket.png);
+  background-position: center;
+}
+
 .name-article{
 text-align: center;
 text-transform: uppercase;
@@ -97,8 +104,42 @@ text-transform: uppercase;
     background-position: right bottom;
 }
 
-input{
-    width: 255px;
+.input-section{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+height: 210px;
+width: 940px;
+justify-content: space-between;
+align-content: space-between;
+margin-bottom: 25px;
+}
+
+#input-name{
+    width: 455px;
     height: 52px;
     border-radius: 2%;
+}
+
+#input-email{
+  width: 455px;
+  height: 52px;
+  border-radius: 2%;
+}
+
+#input-subject{
+  width: 455px;
+  height: 52px;
+  border-radius: 2%;
+}
+
+#input-message{
+  width: 455px;
+  height: 210px;
+  border-radius: 2%;
+}
+
+#submit{
+  width: 240px;
+  height: 64px;
 }
