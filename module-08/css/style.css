@@ -1,6 +1,6 @@
-@import './fonts.css';
-@import './vars.css';
-@import './libs/utils.css';
-
-
-
+@import '/module-08/css/libs/normalize.css';
+@import '/module-08/css/fonts.css';
+@import '/module-08/css/vars.css';
+@import '/module-08/css/libs/utils.css';
+@import '/module-08/css/components/main-section.css';
+@import '/module-08/css/components/semi_section.css';
