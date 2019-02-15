@@ -1,4 +1,4 @@
-/* montserrat-italic - cyrillic */
+/* montserrat-400 - cyrillic */
 @font-face {
   font-family: 'Montserrat';
   font-style: italic;
@@ -38,7 +38,7 @@
        url('../fonts/Roboto/roboto-v18-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
        url('../fonts/Roboto/roboto-v18-latin-300.svg#Roboto') format('svg'); /* Legacy iOS */
 }
-/* roboto-regular - latin */
+/* roboto-400 - latin */
 @font-face {
   font-family: 'RobotoBold';
   font-style: normal;

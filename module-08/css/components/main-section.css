@@ -1,4 +1,6 @@
 .wrapper_main_section{
-    background-image: url(/module-08/img/Background_Object.png);
-    background: no-repeat center;
+    background-image: url(../../img/Background_object.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 54rem;
 }
