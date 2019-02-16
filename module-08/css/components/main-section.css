@@ -3,4 +3,19 @@
     background-repeat: no-repeat;
     background-position: center;
     min-height: 54rem;
+    background-color: rgba(153, 126, 37, 0.7);
+}
+
+.title{
+    text-align: center;
+}
+
+.header{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.link_header{
+    margin: 2rem 0 12rem 0;
 }

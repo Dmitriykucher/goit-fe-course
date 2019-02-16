@@ -1,8 +1,8 @@
 :root {
   --main-font: "Roboto", serif, sans-serif;
   --main-font-bold: "RobotoBold", serif, sans-serif;
-  --semi-font-color: "Montserrat", serif, sans-serif;
-  --semi-font: "MontserratBold", serif, sans-serif;
+  --semi-font: "Montserrat", serif, sans-serif;
+  --semi-font-bold: "MontserratBold", serif, sans-serif;
   --main-font-color: #ffffff;
   --semi-font-color: #000000;
   --main-link-color: #ff4e50;

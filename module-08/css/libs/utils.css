@@ -11,7 +11,25 @@ a{
     padding: 1rem;
 }
 
-img{
-    display: block;
+
+.logo{
+    text-transform: uppercase;
+    color: var(--main-font-color);
+    font-size: 2rem;
 }
 
+.title{
+    color: var(--main-font-color);
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-family: var(--semi-font-bold);
+}
+
+.link_item{
+    display: inline-block;
+    font-family: var(--semi-font);
+    font-size: 1.4rem;
+    color: var(--main-font-color);
+    border: 0.2rem solid var(--main-font-color);
+    border-start-end-radius: 10%;
+}
