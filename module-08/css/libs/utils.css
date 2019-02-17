@@ -1,35 +1,48 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 62.5%;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
 }
 
-a{
-    display: block;
-    text-decoration: none;
-    padding: 1rem;
+a {
+  text-decoration: none;
 }
 
-
-.logo{
-    text-transform: uppercase;
-    color: var(--main-font-color);
-    font-size: 2rem;
+.master_wrapper {
+  min-width: 320px;
+  max-width: 1440px;
 }
 
-.title{
-    color: var(--main-font-color);
-    font-size: 3rem;
-    text-transform: uppercase;
-    font-family: var(--semi-font-bold);
+.logo {
+  text-transform: uppercase;
+  color: var(--main-font-color);
+  font-size: 2rem;
 }
 
-.link_item{
-    display: inline-block;
-    font-family: var(--semi-font);
-    font-size: 1.4rem;
-    color: var(--main-font-color);
-    border: 0.2rem solid var(--main-font-color);
-    border-start-end-radius: 10%;
+.title {
+  color: var(--main-font-color);
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-family: var(--semi-font-bold);
+  margin-top: 0;
+}
+
+.link_log-in {
+  display: inline-block;
+  font-family: var(--semi-font);
+  font-size: 1.4rem;
+  color: var(--main-font-color);
+  border-radius: 10rem;
+  padding: 1rem;
+}
+
+.link_sign-up {
+  display: inline-block;
+  font-family: var(--semi-font);
+  font-size: 1.4rem;
+  color: var(--main-font-color);
+  border: 0.2rem solid var(--main-font-color);
+  border-radius: 10rem;
+  padding: 1rem;
 }
