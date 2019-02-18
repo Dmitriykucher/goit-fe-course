@@ -55,17 +55,23 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 92px;
+  margin-bottom: 80px;
+  font-size: 23px;
+}
+
+.name-section_contact{
+  color: white;
 }
 
 .name-section h2 {
     margin-top: 100px;
   text-transform: uppercase;
-  font-family: var(--font-h2-bold);
+  font-family: var(--font-main-regularbold);
 }
 
 .info-section{
     margin-top: 20px;
+    font-size: 16px;
 }
 
 
@@ -81,15 +87,27 @@ p {
 }
 
 .article::before{
+  content: url(../img/Icon-Basket.png);
   width: 290px;
-  height: 83px;
-  background-image: url(/module-07/img/Icon-Basket.png);
-  background-position: center;
+  height: 80px;
+  display: block;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.icon-laptop::before{
+  content: url(../img/Icon-Laptop.png);
+}
+
+.icon-locked::before{
+  content: url(../img/Icon-Locked.png);
 }
 
 .name-article{
 text-align: center;
 text-transform: uppercase;
+font-family: var(--font-main-regularbold);
+margin-bottom: 25px;
 }
 
 .text-article{
@@ -99,7 +117,7 @@ text-transform: uppercase;
 .section-contact{
     min-height: 675px;
     background-color: #222222;
-    background-image: url(/module-07/img/Map\ Image.png);
+    background-image: url(../img/Map-Image.png);
     background-repeat: no-repeat;
     background-position: right bottom;
 }
@@ -142,4 +160,16 @@ margin-bottom: 25px;
 #submit{
   width: 240px;
   height: 64px;
+  background-color: var(--color-icon);
+  font-family: var(--font-main-regularbold);
+  border: none;
+  border-radius: 3px;
+  color: white;
+  text-transform: uppercase;
+  
+}
+
+.submit_section{
+  display: flex;
+  justify-content: center;
 }

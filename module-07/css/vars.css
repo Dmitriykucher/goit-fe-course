@@ -3,6 +3,8 @@
   --color-icon: #fce38a;
   --color-gradient: #eaffd0;
   --letters-color: #95e1d3;
-  --font-robotoregular: "RobotoRegular", serif, sans-serif ;
-  --font-robotobold: "RobotoBold", serif, sans-serif;
+  --font-main-regular: 'Montserrat', serif, sans-serif ;
+  --font-main-regularbold: 'MontserratBold', serif, sans-serif;
+  --font-semi-regular: 'Roboto', serif, sans-serif;
+  --font-semi-regularbold: 'RobotoBold', serif, sans-serif;
 }
