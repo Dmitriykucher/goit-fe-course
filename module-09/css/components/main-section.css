@@ -8,12 +8,12 @@
 }
 
 .main_section {
-  padding: 0 5rem;
+  max-width: 96rem;
+  margin: 0 auto;
 }
 
 .title_section {
-  display: flex;
-  flex-direction: column;
+  margin: 0 auto;
 }
 
 .title {
@@ -28,6 +28,7 @@
 }
 
 .link_header {
+  text-align: center;
   margin: 2rem 0 12rem 0;
 }
 
@@ -47,10 +48,9 @@
   color: var(--main-font-color);
   background-color: var(--main-link-color);
   border-radius: 10rem;
-  margin: 0 auto;
 }
 
-/* @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .header {
     flex-direction: row;
     justify-content: space-between;
@@ -61,4 +61,4 @@
   .link_header {
     margin: 0;
   }
-} */
+}

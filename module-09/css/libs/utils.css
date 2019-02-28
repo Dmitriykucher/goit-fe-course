@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+.master_wrapper {
+  /* min-width: 320px; */
+  /* max-width: 1440px; */
+}
+
+.logo {
+  text-transform: uppercase;
+  color: var(--main-font-color);
+  font-size: 2rem;
+}
+
+.title {
+  color: var(--main-font-color);
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-family: var(--semi-font-bold);
+  margin-top: 0;
+}
+
+.link_log-in {
+  display: inline-block;
+  font-family: var(--semi-font);
+  font-size: 1.4rem;
+  color: var(--main-font-color);
+  border-radius: 10rem;
+  padding: 1rem;
+}
+
+.link_sign-up {
+  display: inline-block;
+  font-family: var(--semi-font);
+  font-size: 1.4rem;
+  color: var(--main-font-color);
+  border: 0.2rem solid var(--main-font-color);
+  border-radius: 10rem;
+  padding: 1rem;
+}
