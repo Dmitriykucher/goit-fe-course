@@ -1,5 +1,5 @@
 .semi_section{
-  /* max-width: 96rem; */
+  max-width: 96rem;
   margin: 0 auto;
 }
 
@@ -14,6 +14,7 @@
 
 .figure {
   margin-bottom: 3rem;
+  width: 100%;
 }
 
 .figure_img {
@@ -73,19 +74,12 @@
 }
 
 .semi_link_button {
-  display: inline-flex;
   padding: 1rem;
   font-size: 1.4rem;
   font-family: var(--semi-font);
   color: var(--main-link-color);
   border-radius: 10rem;
   border: 0.2rem solid var(--main-link-color);
-  justify-content: center;
-}
-
-.semi_link {
-  display: flex;
-  justify-content: center;
 }
 
 .card_list {
@@ -98,13 +92,16 @@
   margin: 0 auto;
 }
 
+.semi_section a{
+  margin: 0 auto;
+}
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+@media screen and (min-width: 768px) {
   .card_list {
     display: flex;
     flex-wrap: wrap;
   }
-
 
 
 }
