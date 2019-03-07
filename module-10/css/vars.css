@@ -1,0 +1,11 @@
+:root {
+  --color-hover: #f38181;
+  --color-icon: #fce38a;
+  --color-gradient: #eaffd0;
+  --letters-color: #95e1d3;
+  --font-robotoregular: "RobotoRegular", serif, sans-serif ;
+  --font-robotobold: "RobotoBold", serif, sans-serif;
+  --font-h3: 'KaushanScript', serif, sans-serif;
+  --font-h2:  'MontserratRegular', serif, sans-serif;
+  --font-h2-bold: 'MontserratBold', serif, sans-serif;
+}
