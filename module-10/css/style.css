@@ -1,6 +1,7 @@
-@import '../css/libs/normalize.css';
-@import '../css/fonts.css';
-@import '../css/vars.css';
-@import '../css/libs/utils.css';
-@import '../css/components/main-section.css';
-@import '../css/components/semi_section.css';
+@import '/css/libs/normalize.css';
+@import '/css/fonts.css';
+@import '/css/vars.css';
+@import '/css/libs/utils.css';
+@import '/css/components/Welcome_to_MoGo.css';
+@import '/css/components/Amazing_Services.css';
+@import '/css/components/Meet_our_team.css';
