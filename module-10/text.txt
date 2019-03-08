@@ -8,3 +8,223 @@
 Иконки взять из макета.
 Добавить вендорные префиксы, используя Autoprefixer.
 Оптимизировать изображения, используя сервис http://optimizilla.com/ или https://pnggauntlet.com/ для растровых. https://jakearchibald.github.io/svgomg/ для векторных изображений.
+
+
+
+
+.conteiner {
+}
+.title-section {
+
+		// .title-section__wrapper
+
+		&__wrapper {
+		}
+}
+.header {
+}
+.logo {
+
+		// .logo__text
+
+		&__text {
+		}
+}
+.up-liter {
+}
+.navigation {
+
+		// .navigation__list
+
+		&__list {
+		}
+
+		// .navigation__list--item
+
+		&__list--item {
+		}
+
+		// .navigation__button
+
+		&__button {
+		}
+
+		// .navigation__button--list
+
+		&__button--list {
+		}
+
+		// .navigation__button--item
+
+		&__button--item {
+		}
+
+		// .navigation__button-basket
+
+		&__button-basket {
+		}
+
+		// .navigation__button-search
+
+		&__button-search {
+		}
+}
+.banner {
+
+		// .banner__title
+
+		&__title {
+		}
+
+		// .banner__text
+
+		&__text {
+		}
+}
+.learn-more {
+
+		// .learn-more__link
+
+		&__link {
+		}
+}
+.services-section {
+
+		// .services-section__wrapper
+
+		&__wrapper {
+		}
+}
+.services {
+
+		// .services__section
+
+		&__section {
+		}
+}
+.section {
+
+		// .section__block--name
+
+		&__block--name {
+		}
+
+		// .section__information
+
+		&__information {
+		}
+}
+.section--subtext {
+}
+.section--name {
+}
+.card {
+
+		// .card__list
+
+		&__list {
+		}
+
+		// .card__list--item
+
+		&__list--item {
+		}
+
+		// .card__symbol
+
+		&__symbol {
+		}
+
+		// .card__info
+
+		&__info {
+		}
+
+		// .card__headline
+
+		&__headline {
+		}
+
+		// .card__text
+
+		&__text {
+		}
+}
+.team {
+
+		// .team__section--wrapper
+
+		&__section--wrapper {
+		}
+
+		// .team__section
+
+		&__section {
+		}
+
+		// .team__figure
+
+		&__figure {
+		}
+}
+.figure {
+
+		// .figure__img
+
+		&__img {
+		}
+
+		// .figure__hover
+
+		&__hover {
+		}
+
+		// .figure__social--list
+
+		&__social--list {
+		}
+
+		// .figure__social--item
+
+		&__social--item {
+		}
+
+		// .figure__social--link
+
+		&__social--link {
+		}
+
+		// .figure__name
+
+		&__name {
+		}
+
+		// .figure__position
+
+		&__position {
+		}
+}
+.figcaption {
+}
+.footer {
+
+		// .footer__text
+
+		&__text {
+		}
+
+		// .footer__info
+
+		&__info {
+		}
+
+		// .footer__link
+
+		&__link {
+		}
+
+		// .footer__form
+
+		&__form {
+		}
+}

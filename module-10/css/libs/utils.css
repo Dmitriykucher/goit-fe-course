@@ -5,15 +5,32 @@
     font-size: 62.5%;
 }
 
+.wrapper{
+    max-width: 192rem;
+}
+
+.container{
+    width: 120rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .link{
     text-decoration: none;
     display: block;
+    cursor: pointer;
 }
 
 .list{
     list-style: none;
+    display: flex;
 }
 
-[class*="wrapper"] {
-    max-width: 120rem;
+.up-liter{
+    text-transform: uppercase;
 }
+
+/* [class*="wrapper"] {
+    max-width: 120rem;
+} */
+
