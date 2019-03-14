@@ -1,4 +1,35 @@
 .title-section__wrapper {
+  background-image: -webkit-gradient(
+      linear,
+      left top, left bottom,
+      from(rgb(243, 129, 129, 0.8)),
+      color-stop(rgb(254, 152, 122, 0.8)),
+      color-stop(rgb(255, 176, 120, 0.8)),
+      color-stop(rgb(255, 202, 125, 0.8)),
+      color-stop(rgb(252, 227, 138, 0.8)),
+      color-stop(150%, transparent)
+    ),
+    url(/img/background.jpg);
+  background-image: -webkit-linear-gradient(
+      top,
+      rgb(243, 129, 129, 0.8),
+      rgb(254, 152, 122, 0.8),
+      rgb(255, 176, 120, 0.8),
+      rgb(255, 202, 125, 0.8),
+      rgb(252, 227, 138, 0.8),
+      transparent 150%
+    ),
+    url(/img/background.jpg);
+  background-image: -o-linear-gradient(
+      top,
+      rgb(243, 129, 129, 0.8),
+      rgb(254, 152, 122, 0.8),
+      rgb(255, 176, 120, 0.8),
+      rgb(255, 202, 125, 0.8),
+      rgb(252, 227, 138, 0.8),
+      transparent 150%
+    ),
+    url(/img/background.jpg);
   background-image: linear-gradient(
       to bottom,
       rgb(243, 129, 129, 0.8),
@@ -14,9 +45,42 @@
   background-size: cover;
 }
 
-@media only screen and (min-resolution: 192dpi),
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 2/1),
+  only screen and (min-resolution: 192dpi),
   only screen and (min-resolution: 2dppx) {
   .title-section__wrapper {
+    background-image: -webkit-gradient(
+        linear,
+        left top, left bottom,
+        from(rgb(243, 129, 129, 0.8)),
+        color-stop(rgb(254, 152, 122, 0.8)),
+        color-stop(rgb(255, 176, 120, 0.8)),
+        color-stop(rgb(255, 202, 125, 0.8)),
+        color-stop(rgb(252, 227, 138, 0.8)),
+        color-stop(150%, transparent)
+      ),
+      url(/img/background@2x.jpg);
+    background-image: -webkit-linear-gradient(
+        top,
+        rgb(243, 129, 129, 0.8),
+        rgb(254, 152, 122, 0.8),
+        rgb(255, 176, 120, 0.8),
+        rgb(255, 202, 125, 0.8),
+        rgb(252, 227, 138, 0.8),
+        transparent 150%
+      ),
+      url(/img/background@2x.jpg);
+    background-image: -o-linear-gradient(
+        top,
+        rgb(243, 129, 129, 0.8),
+        rgb(254, 152, 122, 0.8),
+        rgb(255, 176, 120, 0.8),
+        rgb(255, 202, 125, 0.8),
+        rgb(252, 227, 138, 0.8),
+        transparent 150%
+      ),
+      url(/img/background@2x.jpg);
     background-image: linear-gradient(
         to bottom,
         rgb(243, 129, 129, 0.8),
@@ -35,8 +99,12 @@
 }
 
 .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding-top: 3rem;
   margin-bottom: 10rem;
 }
@@ -48,6 +116,8 @@
 }
 
 .navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 62.5rem;
   height: 8rem;
@@ -59,7 +129,9 @@
 
 .navigation__list {
   width: 100%;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .navigation__list-item:hover :after {
@@ -126,4 +198,3 @@
   color: var(--color-hover);
   border: 0.3rem solid var(--color-hover);
 }
-
