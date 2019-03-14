@@ -93,7 +93,53 @@
     padding-top: 1.5rem;
 }
 
+.footer{
+    height: 6rem;
+    border-top: 0.1rem solid #999999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.footer__text{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    font-family: var(--font-h2);
+}
+
+.footer__link{
+    color: red;
+}
+
+.footer__form{
+    width: 38rem;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input__mail{
+    height: 100%;
+    font-size: 1.4rem;
+    font-family: var(--font-h2);
+    border: 0.1rem solid #999999;
+    border-right: none;
+    width: 60%;
+    padding-left: 2rem;
+}
+
+.input__subscribe{
+    padding: 0;
+    margin: 0;
+    background-color: var(--letters-color);
+    height: 100%;
+    width: 40%;
+    border: none;
+    font-size: 1.4rem;
+    font-family: var(--font-h2-bold);
+    color: var(--text-color);
+}
 
 
 
