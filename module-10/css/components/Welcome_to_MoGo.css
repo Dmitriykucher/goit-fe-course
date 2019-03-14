@@ -1,110 +1,123 @@
-.title-section__wrapper{
-    background-image: url(/img/background.jpg);
-    background-image: linear-gradient(to bottom, rgb(243, 129, 129, .8), rgb(254, 152, 122, .8), rgb(255, 176, 120, .8), rgb(255, 202, 125, .8), rgb(252, 227, 138, .8), transparent 150%), url(/img/background.jpg);
-    margin-bottom: 5rem;
-    background-repeat: no-repeat;
-    background-size: contain;
+.title-section__wrapper {
+  background-image: linear-gradient(
+      to bottom,
+      rgb(243, 129, 129, 0.8),
+      rgb(254, 152, 122, 0.8),
+      rgb(255, 176, 120, 0.8),
+      rgb(255, 202, 125, 0.8),
+      rgb(252, 227, 138, 0.8),
+      transparent 150%
+    ),
+    url(/img/background.jpg);
+  margin-bottom: 5rem;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-
-
-
-
-.title-section{
-    height: 100rem;
+@media only screen and (min-resolution: 192dpi),
+  only screen and (min-resolution: 2dppx) {
+  .title-section__wrapper {
+    background-image: linear-gradient(
+        to bottom,
+        rgb(243, 129, 129, 0.8),
+        rgb(254, 152, 122, 0.8),
+        rgb(255, 176, 120, 0.8),
+        rgb(255, 202, 125, 0.8),
+        rgb(252, 227, 138, 0.8),
+        transparent 150%
+      ),
+      url(/img/background@2x.jpg);
+  }
 }
 
-.header{
-    display: flex;
-    justify-content: space-between;
-    padding-top: 3rem;
-    margin-bottom: 10rem;
+.title-section {
+  height: 100rem;
 }
 
-.logo{
-    font-family: var(--font-h2-bold);
-    font-size: 3rem;
-    color: var(--text-color);
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3rem;
+  margin-bottom: 10rem;
 }
 
-.navigation{
-    display: flex;
-    width: 62.5rem;
-    height: 8rem;
+.logo {
+  font-family: var(--font-h2-bold);
+  font-size: 3rem;
+  color: var(--text-color);
 }
 
-.navigation svg{
-    fill: var(--text-color);
+.navigation {
+  display: flex;
+  width: 62.5rem;
+  height: 8rem;
 }
 
-
-.navigation__list{
-    width: 100%;
-    justify-content: space-between
+.navigation svg {
+  fill: var(--text-color);
 }
 
-.navigation__list-item:hover :after{
-    content: '';
-    display: block;
-    height: 1rem;
-    border-bottom: .3rem solid var(--color-icon);
+.navigation__list {
+  width: 100%;
+  justify-content: space-between;
 }
 
-.navigation__list-item:hover .navigation__list-item-link{
-    color: var(--color-icon); 
+.navigation__list-item:hover :after {
+  content: "";
+  display: block;
+  height: 1rem;
+  border-bottom: 0.3rem solid var(--color-icon);
 }
 
-.navigation__list-item:hover svg{
-    fill: var(--color-icon); 
+.navigation__list-item:hover .navigation__list-item-link {
+  color: var(--color-icon);
 }
 
-.navigation__list-item-link{
-    text-transform: uppercase;
-    color: var(--text-color);
-    font-family: var(--font-h2);
-    font-size: 1.4rem
+.navigation__list-item:hover svg {
+  fill: var(--color-icon);
 }
 
-
-.navigation__list svg{
-    display: block;
-    width: 1.4rem;
-    height: 1.4rem;
-
+.navigation__list-item-link {
+  text-transform: uppercase;
+  color: var(--text-color);
+  font-family: var(--font-h2);
+  font-size: 1.4rem;
 }
 
-.banner{
-    width: 82rem;
-
+.navigation__list svg {
+  display: block;
+  width: 1.4rem;
+  height: 1.4rem;
 }
 
-.banner__title{
-    font-size: 7.2rem;
-    font-family: var(--font-h3);
-    text-transform: capitalize;
-
-    color: var(--text-color);
-
+.banner {
+  width: 82rem;
 }
 
-.banner__text{
-    text-transform: uppercase;
-    font-size: 15rem;
-    font-family: var(--font-h2-bold);
+.banner__title {
+  font-size: 7.2rem;
+  font-family: var(--font-h3);
+  text-transform: capitalize;
 
-    margin-bottom: 12.5rem;
-    color: var(--text-color);
+  color: var(--text-color);
 }
 
-.learn-more__link{
-    font-size: 1.4rem;
-    font-family: var(--font-h2);
-    text-transform: uppercase;
-    color: var(--text-color);
-    border: 0.3rem solid var(--text-color);
-    width: 16rem;
-    height: 4rem;
+.banner__text {
+  text-transform: uppercase;
+  font-size: 15rem;
+  font-family: var(--font-h2-bold);
 
-    padding-top: 1rem;
+  margin-bottom: 12.5rem;
+  color: var(--text-color);
+}
 
+.learn-more__link {
+  font-size: 1.4rem;
+  font-family: var(--font-h2);
+  text-transform: uppercase;
+  color: var(--text-color);
+  border: 0.3rem solid var(--text-color);
+  width: 16rem;
+  height: 4rem;
+  padding-top: 1rem;
 }

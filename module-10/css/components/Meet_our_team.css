@@ -3,6 +3,7 @@
     margin: 0 auto;
     font-size: 1.5rem;
     font-family: var(--font-robotoregular);
+    color: var(--color-text);
     text-align: center;
     margin-bottom: 8rem;
 }
@@ -19,7 +20,7 @@
 
 }
 
-.figure__img--overlay{
+.figure__background--overlay{
     background-color: var(--letters-color);
 }
 
@@ -27,8 +28,6 @@
     height: 47rem;
     width: 38rem;
     position: absolute;
-    /* background-color: var(--letters-color); */
-    /* background-color: black; */
     transition: transform 200ms linear;
 
 }
@@ -89,6 +88,7 @@
 
 .figure__position{
     font-family: var(--font-robotoregular);
+    color: var(--color-text);
     font-size: 1.5rem;
     padding-top: 1.5rem;
 }

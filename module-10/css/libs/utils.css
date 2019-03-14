@@ -28,6 +28,7 @@
 
 .up-liter{
     text-transform: uppercase;
+    font-size: inherit;
 }
 
 .center-text{
