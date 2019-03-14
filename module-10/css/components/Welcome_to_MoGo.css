@@ -9,7 +9,7 @@
       color-stop(rgb(252, 227, 138, 0.8)),
       color-stop(150%, transparent)
     ),
-    url(./img/background.jpg);
+    url(/img/background.jpg);
   background-image: -webkit-linear-gradient(
       top,
       rgb(243, 129, 129, 0.8),
@@ -19,7 +19,7 @@
       rgb(252, 227, 138, 0.8),
       transparent 150%
     ),
-    url(./img/background.jpg);
+    url(/img/background.jpg);
   background-image: -o-linear-gradient(
       top,
       rgb(243, 129, 129, 0.8),
@@ -29,7 +29,7 @@
       rgb(252, 227, 138, 0.8),
       transparent 150%
     ),
-    url(./img/background.jpg);
+    url(/img/background.jpg);
   background-image: linear-gradient(
       to bottom,
       rgb(243, 129, 129, 0.8),
@@ -39,7 +39,7 @@
       rgb(252, 227, 138, 0.8),
       transparent 150%
     ),
-    url(./img/background.jpg);
+    url(/img/background.jpg);
   margin-bottom: 5rem;
   background-repeat: no-repeat;
   background-size: cover;
@@ -60,7 +60,7 @@
         color-stop(rgb(252, 227, 138, 0.8)),
         color-stop(150%, transparent)
       ),
-      url(./img/background@2x.jpg);
+      url(/img/background@2x.jpg);
     background-image: -webkit-linear-gradient(
         top,
         rgb(243, 129, 129, 0.8),
@@ -70,7 +70,7 @@
         rgb(252, 227, 138, 0.8),
         transparent 150%
       ),
-      url(./img/background@2x.jpg);
+      url(/img/background@2x.jpg);
     background-image: -o-linear-gradient(
         top,
         rgb(243, 129, 129, 0.8),
@@ -80,7 +80,7 @@
         rgb(252, 227, 138, 0.8),
         transparent 150%
       ),
-      url(./img/background@2x.jpg);
+      url(/img/background@2x.jpg);
     background-image: linear-gradient(
         to bottom,
         rgb(243, 129, 129, 0.8),
@@ -90,7 +90,7 @@
         rgb(252, 227, 138, 0.8),
         transparent 150%
       ),
-      url(./img/background@2x.jpg);
+      url(/img/background@2x.jpg);
   }
 }
 
